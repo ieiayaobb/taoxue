@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="CollegeInfo" location="10,108" size="525,245">
+    <action name="UnionInfo!*" location="66,48" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="UnionInfo.jsp" />
+      </result>
+      <result name="detail">
+        <resourceEdge source="detail" routing="0" target="UnionInfo_detail.jsp" />
+      </result>
+    </action>
+    <action name="NewComeToKnow!*" location="66,163" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="ActivityInfo!*" location="311,163" size="150,41">
+      <result name="success" />
+    </action>
+  </package>
+  <webResource name="UnionInfo.jsp" path="/CollegeInfo/UnionInfo/UnionInfo.jsp" location="600,150" size="150,55" />
+  <webResource name="UnionInfo_detail.jsp" path="/CollegeInfo/UnionInfo/UnionInfo_detail.jsp" location="75,10" size="150,55" />
+</Struts2Diagram>
+

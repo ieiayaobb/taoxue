@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+	<package name="CollegeInfo" extends="struts-default">
+		<action name="UnionInfo!*" class="com.collegeInfo.action.UnionInfoAction" method="{1}">
+			<result name="success">/CollegeInfo/UnionInfo/UnionInfo.jsp</result>
+			<result name="detail">/CollegeInfo/UnionInfo/UnionInfo_detail.jsp</result>
+		</action>
+		<action name="NewComeToKnow!*" class="com.collegeInfo.action.NewComeToKnowAction" method="{1}">
+			<result name="success">/CollegeInfo/NewComeToKnow/NewComeToKnow.jsp</result>
+		</action>
+		<action name="ActivityInfo!*" class="com.collegeInfo.action.ActivityInfoAction" method="{1}">
+			<result name="success">/CollegeInfo/ActivityInfo/ActivityInfo.jsp</result>
+			<result name="detail">/CollegeInfo/ActivityInfo/ActivityInfo_detail.jsp</result>
+		</action>
+	</package>
+	<package name="CollegeServe" extends="struts-default">
+		<action name="CollegeServe!*" class="com.collegeServe.action.CollegeServeAction" method="{1}">
+			<result name="success">/CollegeServe/CollegeServe.jsp</result>
+			<result name="detail">/CollegeServe/CollegeServe_detail.jsp</result>
+		</action>
+	</package>
+	<package name="ExamInfo" extends="struts-default">
+		<action name="ExamInfo!*" class="com.examInfo.action.ExamInfoAction" method="{1}">
+			<result name="success">/ExamInfo/ExamInfo.jsp</result>
+			<result name="detail">/ExamInfo/ExamInfo_detail.jsp</result>
+		</action>
+	</package>
+	<package name="CommunityPlate" extends="struts-default">
+		<action name="CommunityPlate!*" class="com.communityPlate.action.CommunityPlateAction" method="{1}">
+			<result name="success">/CommunityPlate/CommunityPlate.jsp</result>
+			<result name="detail">/CommunityPlate/CommunityPlate_detail.jsp</result>
+		</action>
+	</package>
+</struts>    

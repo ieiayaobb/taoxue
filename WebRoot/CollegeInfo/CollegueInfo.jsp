@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>校园资讯－淘学520</title>
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="Tops">
+  <div class="Top960">
+    <div class="Topleft">HI,欢迎来到淘学520，www.taoxue520.com</div>
+    <div class="Topright"><a href="#" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.taoxue520.com');">设为首页</a> / <a href="javascript:window.external.AddFavorite('http://www.taoxue520.com','淘学520')" class="setJoin">加入收藏</a></div>
+  </div>
+</div>
+<div class="Heads">
+  <div id="Logos"><a href="index.html"><img src="images/logo.jpg" alt="淘学520" border="0" /></a></div>
+</div>
+<script language="javascript">
+<!--
+
+startList = function() {
+if (document.all&&document.getElementById) {
+navRoot = document.getElementById("nav");
+for (i=0; i<navRoot.childNodes.length; i++) {
+node = navRoot.childNodes[i];
+if (node.nodeName=="LI") {
+node.onmouseover=function() {
+this.className+=" over";
+ }
+ node.onmouseout=function() {
+ this.className=this.className.replace(" over", "");
+ }
+ }
+ }
+ }
+}
+window.onload=startList;
+-->
+</script>
+<div class="Navs960">
+  <ul id="nav">
+    <li class="nav1"><a href="index.html">网站首页</a></li>
+    <li class="nav2 Life_A on2"><a href="xyzx.html">校园资讯</a>
+      <ul class="Life_B">
+        <li><a href="stjs.html">社团介绍</a>
+        <li><a href="xsxz.html">新生须知</a></li>
+        <li><a href="hdhz.html">活动汇总</a></li>
+      </ul>
+    </li>
+    <li class="nav3"><a href="xyfw.html">校园服务</a></li>
+    <li class="nav4"><a href="kszx.html">考试资讯</a></li>
+    <li class="nav5"><a href="gypt.html">公益平台</a></li>
+    <li class="nav6"><a href="lxwm.html">联系我们</a></li>
+  </ul>
+</div>
+<div style="clear:both"></div>
+<div class="Lines"></div>
+<div class="Subs">
+  <div class="S_left">
+    <div class="s_l_BoxA">文艺/体育类</div>
+    <div class="wrap">
+      <ul id="listDemo">
+        <li><a href="#">舞蹈大赛</a></li>
+        <li><a href="#">十佳歌手</a></li>
+        <li><a href="#">桌球大赛</a></li>
+        <li><a href="#">乒乓球大赛</a></li>
+        <li><a href="#">迎新晚会</a></li>
+        <li><a href="#">书法大赛</a></li>
+      </ul>
+    </div>
+    <div class="s_l_BoxC">联系我们</div>
+    <div class="wrap">
+      <ul id="listDemo2">
+        <li><a href="#">商家合作</a></li>
+        <li><a href="#">社团合作</a></li>
+      </ul>
+    </div>
+    <div class="QQ_call"><a href="#" class="Talk1"><span class="on_span">点击我在线交谈 QQ：458931193</span></a><a href="#" class="Talk2"><span>点击我在线交谈 QQ：458931193</span></a><a href="#" class="Talk3"><span>点击我在线交谈 QQ：458931193</span></a><a href="#" class="Talk4"><span>点击我在线交谈 QQ：458931193</span></a></div>
+    <h2 class="QQ_num">15365031035</h2>
+    <h4 class="QQ_time">AM 10:00 ~ PM 06:00</h4>
+    <h4 class="QQ_wel">您好，欢迎您的致电，等待你的咨询</h4>
+  </div>
+  <script type="text/javascript">
+(function(){
+    var j, l = arguments.length;
+    for (j = 0; j < l; j++) {
+        (function(elems){
+            var elem = document.getElementById(elems[0]);
+            var rows = elem.getElementsByTagName(elems[1]), i, len = rows.length;
+            var lastClass = '';
+            if (elem && len > 1) {
+                for (var i = 0; i < len; i++) {
+                    rows[i].className = i % 2 == 0 ? 'even' : 'odd';
+                    rows[i].onmouseover = function(){
+                        lastClass = this.className;
+                        this.className = 'hover';
+                    };
+                    rows[i].onmouseout = function(){
+                        this.className = lastClass;
+                    };
+                }
+            }
+        })(arguments[j]);
+    }
+})(['listDemo','li'],['listDemo2','li']);
+</script>
+  <div class="S_right">
+    <div class="Positions">当前位置：<a href="#">校园资讯</a><a href="#">活动汇总</a><a href="#">文艺/体育类</a><span class="PTit">舞蹈大赛</span></div>
+    <div class="Details">
+      <div class="Dettail_txt"><img src="images/show.jpg" /><br />
+        新浪娱乐讯 日前，由新经典娱乐传媒重金打造，邓超，张嘉译，董洁，代乐乐主演的亲情大戏《你是我兄弟》在北京卫视经过半个多月热播，落下帷幕，尤其大结局播出时在北京地区以超过15点的收视率疯狂收官，成为名至实归的年度最火电视剧。
+        
+        该剧是著名编剧彭三源继《半路夫妻》、《亲兄热弟》之后“亲情三部曲”系列的终极版。剧中鲜活真实的人物，已深扎观众心中，尤其是邓超和董洁、代乐乐之间的三角恋情起伏跌宕，紧紧牵动着每一个观众的心。戏中扮演痴情“英子”的北京籍演员代乐乐也因此一炮而红。
+        新浪娱乐讯 日前，由新经典娱乐传媒重金打造，邓超，张嘉译，董洁，代乐乐主演的亲情大戏《你是我兄弟》在北京卫视经过半个多月热播，落下帷幕，尤其大结局播出时在北京地区以超过15点的收视率疯狂收官，成为名至实归的年度最火电视剧。
+        
+        该剧是著名编剧彭三源继《半路夫妻》、《亲兄热弟》之后“亲情三部曲”系列的终极版。剧中鲜活真实的人物，已深扎观众心中，尤其是邓超和董洁、代乐乐之间的三角恋情起伏跌宕，紧紧牵动着每一个观众的心。戏中扮演痴情“英子”的北京籍演员代乐乐也因此一炮而红。
+        新浪娱乐讯 日前，由新经典娱乐传媒重金打造，邓超，张嘉译，董洁，代乐乐主演的亲情大戏《你是我兄弟》在北京卫视经过半个多月热播，落下帷幕，尤其大结局播出时在北京地区以超过15点的收视率疯狂收官，成为名至实归的年度最火电视剧。
+        
+        该剧是著名编剧彭三源继《半路夫妻》、《亲兄热弟》之后“亲情三部曲”系列的终极版。剧中鲜活真实的人物，已深扎观众心中，尤其是邓超和董洁、代乐乐之间的三角恋情起伏跌宕，紧紧牵动着每一个观众的心。戏中扮演痴情“英子”的北京籍演员代乐乐也因此一炮而红。 </div>
+    </div>
+  </div>
+</div>
+<div style="clear:both"></div>
+<div class="Foots">
+  <div class="Foots960"><span class="Copyright"><p><script language="JavaScript" src="http://s19.cnzz.com/stat.php?id=3153116&amp;web_id=3153116&amp;show=pic"></script></p>Copyright © 2011 taoxue520.com  All Rights Reserved  皖ICP备10002772号   设计制作：<a href="http://www.woaidesign.com" target="_blank">陈义正工作室</a>
+    </span></div>
+</div>
+</body>
+</html>
